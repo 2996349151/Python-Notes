@@ -8,7 +8,7 @@
 1. Open terminal by pressing <kbd>Ctrl</kbd>+<kbd>`</kbd>
 2. Then create and active the virtual environemnt: 
 ```Bash
-# Create
+# Create Python3 virtual environemnt
 python3 -m venv venv
 # Activate (remember activating eveytime)
 source venv/bin/activate
