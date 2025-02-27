@@ -13,6 +13,11 @@ python3 -m venv venv
 # Activate (remember activating eveytime)
 source venv/bin/activate
 ```
+3. Create a file named <kbd>.gitignore</kbd>
+4. Write following codes to ignore venv when using git
+```
+venv/
+```
 
 ### Step 3: Select interpreter
 1. Open the Command Palette by pressing <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
@@ -42,7 +47,7 @@ pip install black
 [tool.Black]
 line-length = 88
 ```
-4. Then formatting all Python files:
+4. Then format all Python files:
 ```Bash
 Black .
 ```
