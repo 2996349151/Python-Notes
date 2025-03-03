@@ -13,7 +13,7 @@ python3 -m venv venv
 # Activate (remember activating eveytime)
 source venv/bin/activate
 ```
-3. Create a file named <kbd>.gitignore</kbd>
+3. Create a file named <kbd>.gitignore</kbd> Yrs
 4. Write following codes to ignore venv when using git
 ```
 venv/
